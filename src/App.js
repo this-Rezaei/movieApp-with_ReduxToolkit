@@ -6,6 +6,7 @@ import MovieDetail from "./components/MovieDetail/MovieDetail";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 function App() {
     return (
         <div className="App">
