@@ -1,9 +1,11 @@
 import React from 'react'
 
-const MovieCard = () => {
+
+const MovieCard = ({data}) => {
+
    return (
       <div>
-         MovieCard
+         MovieCardjdnfjsnfjnsjdfnhwebfjsjadasmd 
       </div>
    )
 }
