@@ -10,7 +10,7 @@ const Home = () => {
     const movieTitle = "Harry";
     const fetchMovies = async () => {
       const response = await movieApi
-        .get(`?apikey=${ApiKey}&s=${movieTitle}&type=movie`)
+        .get(`?apikey=${ApiKey}&?plot=full&s=${movieTitle}&type=movie`)
         .catch((err) => {
           console.log("error", err);
         });
