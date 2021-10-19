@@ -1,0 +1,46 @@
+{
+  "short_name": "Movie App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "./icons/film-strip1.png",
+      "type": "image/png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "./icons/film-strip2.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "./icons/film-strip3.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "./icons/film-strip4.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./icons/film-strip5.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./icons/film-strip6.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+
+  "theme_color": "#000055",
+  "background_color": "#ffffff",
+  "start_url": "http://localhost:3000/",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "A simple Movei app, implementing a lot of PWA love.",
+  "dir": "ltr",
+  "lang": "en-US"
+}
